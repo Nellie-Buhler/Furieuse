@@ -1,0 +1,54 @@
+:root {
+  --red: #b00042;
+  --bg: #25000b;
+}
+
+.crimson-pro-regular {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-pro-bold {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Enchanted land";
+  src: url("../font/enchanted-land/enchanted_land-webfont.woff2")
+      format("woff2"),
+    url("../font/enchanted-land/enchanted_land-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+//utilisation des font :
+//font-family: "Enchanted land";
+//font-family: "katari", "Crimson Pro", serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
