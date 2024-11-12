@@ -1,0 +1,24 @@
+.navigation {
+  img {
+    height: 30px;
+  }
+
+  p {
+    font-family: "katari", "Crimson Pro", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+  }
+
+  .navigation-button {
+    font-family: "Enchanted land";
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    background-color: var(--red);
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+}
