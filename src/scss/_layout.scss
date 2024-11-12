@@ -1,0 +1,42 @@
+.l-loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(19, 2, 2);
+  color: white;
+  font-family: "katari", "Crimson Pro", serif;
+  font-size: 35px;
+
+  img {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  .crown {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .loading-screen-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .loading-screen-middle-line {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      :nth-child(2) {
+        width: 10vh;
+        height: 10vh;
+      }
+    }
+  }
+}
