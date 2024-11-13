@@ -1,0 +1,95 @@
+.presentation-container {
+  background-color: aquamarine;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+
+  .presentation-bg-img {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .presentation-content {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 19px;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 60px;
+
+    .presentation-txt {
+      width: 30vw;
+      color: white;
+      font-family: "katari", "Crimson Pro", serif;
+      font-size: 274x;
+    }
+
+    .presentation-chr-ysa {
+      fill: url(../img/ysa-chr.png) lightgray -1.188px 109px / 105.333% 88.995% no-repeat;
+    }
+
+    .presentation-title {
+      h1 {
+        color: #fff;
+        font-family: "Enchanted land";
+        font-size: 300px;
+      }
+    }
+
+    .presentation-title-ysa {
+      position: absolute;
+      right: -10vw;
+      top: 30vh;
+      rotate: 90deg;
+    }
+  }
+}
+
+.presentation-ysa {
+  background: var(
+    --bg-ysa,
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 27.5%, rgba(42, 14, 108, 0.2) 91%),
+    #7c113f
+  );
+
+  .presentation-bg-img {
+    justify-content: flex-end;
+  }
+
+  .presentation-bg-img-01-ysa {
+    position: absolute;
+    z-index: 2;
+    right: 40vh;
+    width: 605.5px;
+    height: 874px;
+    fill: linear-gradient(
+        0deg,
+        rgba(68, 12, 28, 0.7) 0%,
+        rgba(68, 12, 28, 0.7) 100%
+      ),
+      url(../img/ysa-bg-01.png) lightgray -22.838px -20.86px / 251.969% 105.627%
+        no-repeat;
+  }
+
+  .presentation-bg-img-02-ysa {
+    position: absolute;
+    width: 573px;
+    height: 874px;
+    background: linear-gradient(
+        0deg,
+        rgba(52, 18, 31, 0.7) 0%,
+        rgba(52, 18, 31, 0.7) 100%
+      ),
+      url(../img/ysa-bg-02.png) lightgray -10.416px -21.06px / 219.026% 104.011%
+        no-repeat;
+  }
+}
