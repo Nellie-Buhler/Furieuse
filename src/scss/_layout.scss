@@ -65,6 +65,7 @@
   display: flex;
   position: fixed;
   z-index: 10;
+  transition: position 3s ease;
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.6) 0%,
