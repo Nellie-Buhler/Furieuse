@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0px;
 
   .presentation-bg-img {
     display: flex;
@@ -14,6 +13,7 @@
     width: 100vw;
     height: 100vh;
     align-items: stretch;
+    overflow: hidden;
   }
 
   .presentation-content {
@@ -25,16 +25,13 @@
     width: 100vw;
     height: 100vh;
     padding: 0px 60px;
+    overflow: hidden;
 
     .presentation-txt {
       width: 30vw;
       color: white;
       font-family: "katari", "Crimson Pro", serif;
-      font-size: 274x;
-    }
-
-    .presentation-chr-ysa {
-      fill: url(../img/ysa-chr.png) lightgray -1.188px 109px / 105.333% 88.995% no-repeat;
+      font-size: 24px;
     }
 
     .presentation-title {
@@ -43,13 +40,6 @@
         font-family: "Enchanted land";
         font-size: 300px;
       }
-    }
-
-    .presentation-title-ysa {
-      position: absolute;
-      right: -10vw;
-      top: 30vh;
-      rotate: 90deg;
     }
   }
 }
@@ -69,27 +59,169 @@
     position: absolute;
     z-index: 2;
     right: 40vh;
-    width: 605.5px;
-    height: 874px;
+    height: 100vh;
     fill: linear-gradient(
-        0deg,
-        rgba(68, 12, 28, 0.7) 0%,
-        rgba(68, 12, 28, 0.7) 100%
-      ),
-      url(../img/ysa-bg-01.png) lightgray -22.838px -20.86px / 251.969% 105.627%
-        no-repeat;
+      0deg,
+      rgba(68, 12, 28, 0.7) 0%,
+      rgba(68, 12, 28, 0.7) 100%
+    );
   }
 
   .presentation-bg-img-02-ysa {
     position: absolute;
-    width: 573px;
-    height: 874px;
+    height: 100vh;
     background: linear-gradient(
-        0deg,
-        rgba(52, 18, 31, 0.7) 0%,
-        rgba(52, 18, 31, 0.7) 100%
-      ),
-      url(../img/ysa-bg-02.png) lightgray -10.416px -21.06px / 219.026% 104.011%
-        no-repeat;
+      0deg,
+      rgba(52, 18, 31, 0.7) 0%,
+      rgba(52, 18, 31, 0.7) 100%
+    );
+  }
+
+  .presentation-title-ysa {
+    position: absolute;
+    right: -10vw;
+    top: 30vh;
+    rotate: 90deg;
+  }
+}
+
+.presentation-arthur {
+  background: var(
+    --bg-arthur,
+    linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(253, 0, 0, 0.13) 85.5%),
+    #3d1f85
+  );
+
+  .presentation-bg-img {
+    justify-content: flex-start;
+  }
+
+  .presentation-content-arthur {
+    flex-direction: row-reverse;
+  }
+
+  .presentation-bg-img-01-arthur {
+    position: absolute;
+    height: 100vh;
+    fill: linear-gradient(
+      0deg,
+      rgba(32, 5, 47, 0.7) 0%,
+      rgba(32, 5, 47, 0.7) 100%
+    );
+  }
+
+  .presentation-bg-img-02-arthur {
+    position: absolute;
+    z-index: 2;
+    left: 40vh;
+    height: 100vh;
+    fill: linear-gradient(
+      0deg,
+      rgba(29, 4, 42, 0.7) 0%,
+      rgba(29, 4, 42, 0.7) 100%
+    );
+  }
+
+  .presentation-title-arthur {
+    position: absolute;
+    left: -10vw;
+    top: 30vh;
+    rotate: 90deg;
+  }
+}
+
+.presentation-baron {
+  background: var(
+    --bg-baron,
+    linear-gradient(0deg, rgba(0, 25, 52, 0.35) 0%, rgba(0, 25, 52, 0.35) 100%),
+    linear-gradient(
+      180deg,
+      rgba(0, 157, 255, 0) 0%,
+      rgba(56, 74, 187, 0.25) 100%
+    ),
+    #95c2f1
+  );
+
+  .presentation-bg-img {
+    justify-content: flex-end;
+  }
+
+  .presentation-bg-img-01-baron {
+    position: absolute;
+    z-index: 2;
+    right: 40vh;
+    height: 100vh;
+    fill: linear-gradient(
+      0deg,
+      rgba(8, 18, 37, 0.7) 0%,
+      rgba(8, 18, 37, 0.7) 100%
+    );
+  }
+
+  .presentation-bg-img-02-baron {
+    position: absolute;
+    height: 100vh;
+    background: linear-gradient(
+      0deg,
+      rgba(52, 18, 31, 0.7) 0%,
+      rgba(52, 18, 31, 0.7) 100%
+    );
+  }
+
+  .presentation-title-baron {
+    position: absolute;
+    right: -5vw;
+    top: 30vh;
+    rotate: 90deg;
+  }
+}
+
+.presentation-epee {
+  background: var(
+    --bg-pe,
+    linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0) 38%,
+      rgba(118, 18, 18, 0.15) 100%
+    ),
+    #a3852e
+  );
+
+  .presentation-bg-img {
+    justify-content: flex-start;
+  }
+
+  .presentation-content-epee {
+    flex-direction: row-reverse;
+    gap: 300px;
+  }
+
+  .presentation-bg-img-01-epee {
+    position: absolute;
+    height: 100vh;
+    fill: linear-gradient(
+      0deg,
+      rgba(17, 12, 6, 0.7) 0%,
+      rgba(17, 12, 6, 0.7) 100%
+    );
+  }
+
+  .presentation-bg-img-02-epee {
+    position: absolute;
+    z-index: 2;
+    left: 40vh;
+    height: 100vh;
+    fill: linear-gradient(
+      0deg,
+      rgba(42, 35, 14, 0.6) 0%,
+      rgba(42, 35, 14, 0.6) 100%
+    );
+  }
+
+  .presentation-title-epee {
+    position: absolute;
+    left: -5vw;
+    top: 30vh;
+    rotate: 90deg;
   }
 }
