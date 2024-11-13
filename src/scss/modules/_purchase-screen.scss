@@ -1,0 +1,28 @@
+.purchase-screen-txt {
+  color: white;
+  h2 {
+    font-family: "Enchanted land";
+    font-size: 180px;
+  }
+
+  p {
+    font-family: "katari", "Crimson Pro", serif;
+    font-size: 20px;
+  }
+
+  .buy-button {
+    font-family: "katari", "Crimson Pro", serif;
+  }
+
+  .fnac-button {
+    font-family: "katari", "Crimson Pro", serif;
+  }
+}
+
+.purchase-screen-produckt {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 50%;
+  }
+}
