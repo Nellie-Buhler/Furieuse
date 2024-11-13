@@ -1,0 +1,53 @@
+.storytelling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .comic-box {
+    img {
+      width: 20%;
+    }
+  }
+
+  .family-paint {
+    background-image: url("../img/family-paint.png?as=webp");
+    background-size: cover;
+    width: 50vw;
+    margin-bottom: 50px;
+  }
+
+  .night-discusion {
+    background-image: url("../img/night-discusion.png?as=webp");
+    background-size: cover;
+    width: 50vw;
+    margin-bottom: 50px;
+  }
+}
+
+.ysa-escape {
+  background-image: url("../img/ysa-escape.png?as=webp");
+  background-size: cover;
+  width: 50vw;
+  margin-bottom: 50px;
+}
+
+.alone-bubble {
+  width: 50vw;
+  margin-bottom: 50px;
+}
+
+.maxine-paint {
+  background-image: url("../img/maxine-paint.png?as=webp");
+  background-size: cover;
+  width: 50vw;
+  margin-bottom: 50px;
+}
+
+.maxine-sketch {
+  background-image: url("../img/maxine-sketch.png?as=webp");
+  background-size: cover;
+  width: 50vw;
+  height: 50vh;
+  margin-bottom: 50px;
+}

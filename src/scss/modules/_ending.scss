@@ -1,0 +1,23 @@
+.ending-comic-box {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  img {
+    width: 55%;
+    margin-bottom: -100px;
+  }
+
+  :nth-child(2) {
+    align-self: flex-end;
+  }
+}
+
+.ending-night-star {
+  background-image: url("../img/night-star.png?as=webp");
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  margin-bottom: 50px;
+}

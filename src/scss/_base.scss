@@ -45,6 +45,10 @@ video {
   display: block;
 }
 
+body {
+  background-color: var(--bg);
+}
+
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
