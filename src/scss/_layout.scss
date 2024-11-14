@@ -82,7 +82,7 @@
     padding-bottom: 40px;
   }
 
-  // display: none;
+  display: none;
 }
 
 .l-transition {
@@ -94,4 +94,150 @@
 .l-purchase-screen {
   background-color: black;
   height: 80vh;
+}
+
+// .l-parallax {
+//   height: 100vh;
+//   overflow: hidden;
+//   position: relative;
+//   max-width: 1920px;
+//   margin: 0 auto;
+// }
+
+// .layer {
+//   background-position: center bottom;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   width: 100%;
+//   height: 100vh;
+//   position: absolute; /* Utiliser absolute pour chaque couche */
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+// }
+
+// .layer-bg {
+//   background-image: url("../img/parallax-bg.png");
+// }
+
+// .layer-1 {
+//   background-image: url("../img/parallax-ground.png");
+// }
+
+// .layer-2 {
+//   background-image: url("../img/parallax-ysa.png");
+//   background-position: right bottom;
+// }
+
+// .layer-3 {
+//   background-image: url("../img/parallax-rock.png");
+//   background-position: right bottom;
+// }
+
+// .layer-4 {
+//   background-image: url("../img/parallax-logo.png");
+//   background-position: right bottom;
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .layer-1 {
+//     background-position: 26% bottom;
+//   }
+//   .layer-2 {
+//     background-position: 35% bottom;
+//   }
+
+//   .layer-3 {
+//     background-position: 46% bottom;
+//   }
+
+//   .layer-4 {
+//     background-position: 57% bottom;
+//   }
+// }
+
+// .l-parallax {
+//   position: relative;
+//   height: 150vh;
+//   overflow: hidden;
+//   margin: 0 auto;
+// }
+
+// .layer {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100vh;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   transform: translateZ(0);
+// }
+
+// .layer-bg {
+//   background-image: url("../img/parallax-bg.png?as=webp");
+// }
+
+// .layer-1 {
+//   background-image: url("../img/parallax-ground.png?as=webp");
+// }
+
+// .layer-2 {
+//   background-image: url("../img/parallax-ysa.png?as=webp");
+// }
+
+// .layer-3 {
+//   background-image: url("../img/parallax-rock.png?as=webp");
+// }
+
+// .layer-4 {
+//   width: 20%;
+//   background-image: url("../img/parallax-logo.png?as=webp");
+// }
+
+.l-parallax {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateZ(0);
+}
+
+/* Personnalisation des tailles des couches */
+.layer-bg {
+  height: 100vh; /* Plein écran */
+  background-image: url("../img/parallax-bg.png");
+}
+
+.layer-1 {
+  height: 80vh;
+  background-image: url("../img/parallax-ground.png");
+}
+
+.layer-2 {
+  height: 60vh;
+  background-image: url("../img/parallax-ysa.png");
+  background-position: right bottom;
+}
+
+.layer-3 {
+  height: 50vh;
+  background-image: url("../img/parallax-rock.png");
+  background-position: right bottom;
+}
+
+.layer-4 {
+  height: 40vh;
+  background-image: url("../img/parallax-logo.png");
+  background-position: left bottom;
 }

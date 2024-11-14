@@ -29,3 +29,18 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(footer);
+
+// ------effet parallax-------------------------------------------------------------------
+
+window.addEventListener("scroll", function () {
+  const layers = document.querySelectorAll(".layer");
+  const scrollTop = window.pageYOffset;
+
+  layers.forEach((layer) => {
+    const depth = layer.getAttribute("data-depth");
+    const movement = scrollTop * depth;
+
+    // On ajuste uniquement la position verticale en fonction de la profondeur
+    layer.style.transform = `translateY(-${movement}px)`;
+  });
+});
