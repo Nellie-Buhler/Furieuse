@@ -30,12 +30,14 @@
     :nth-child(1) {
       width: 30%;
       top: -45px;
-      left: -5vw;
+      left: -30vw;
+      opacity: 0;
     }
     :nth-child(3) {
       width: 28%;
       bottom: -50px;
-      right: -5vh;
+      right: -60vh;
+      opacity: 0;
     }
   }
 
