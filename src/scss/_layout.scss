@@ -198,46 +198,61 @@
 
 .l-parallax {
   position: relative;
-  height: 100vh;
+  height: 150vh;
   overflow: hidden;
 }
 
 .layer {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-size: cover;
+  bottom: 0;
+  width: 100vw;
+  height: 150vh;
   background-repeat: no-repeat;
-  background-position: center;
   transform: translateZ(0);
 }
 
-/* Personnalisation des tailles des couches */
 .layer-bg {
-  height: 100vh; /* Plein écran */
+  width: 100vw;
+  height: 150vh;
   background-image: url("../img/parallax-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .layer-1 {
-  height: 80vh;
-  background-image: url("../img/parallax-ground.png");
+  height: 150vh;
+  bottom: -25vh;
+  background-image: url("../img/parallax-ysa.png");
 }
 
 .layer-2 {
-  height: 60vh;
-  background-image: url("../img/parallax-ysa.png");
-  background-position: right bottom;
+  width: 100vh;
+  height: 150vh;
+  right: 0;
+  bottom: -40vh;
+  background-image: url("../img/parallax-rock.png");
+  background-position: bottom right;
 }
 
 .layer-3 {
-  height: 50vh;
-  background-image: url("../img/parallax-rock.png");
-  background-position: right bottom;
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  top: 100;
+  img {
+    height: 130%;
+  }
 }
 
 .layer-4 {
-  height: 40vh;
-  background-image: url("../img/parallax-logo.png");
-  background-position: left bottom;
+  position: absolute;
+  width: 100vw;
+  height: 600vh;
+  bottom: 0vh;
+  background: linear-gradient(
+    180deg,
+    rgba(37, 0, 11, 0) 0%,
+    rgba(37, 0, 11, 0.06) 89.5%,
+    #25000b 97%
+  );
 }
