@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,9 +10,10 @@
   background-color: var(--red);
 
   .copyright {
-    align-self: flex-end;
-    right: 8px;
-    bottom: 0px;
+    position: absolute;
+    opacity: 70%;
+    right: 30px;
+    bottom: 10px;
   }
 }
 

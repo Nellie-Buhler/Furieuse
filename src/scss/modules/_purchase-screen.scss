@@ -34,6 +34,15 @@
       text-decoration: none;
       font-family: "Enchanted land";
       font-size: 35px;
+      transition: border-bottom 0.15s ease-in;
+    }
+
+    :hover {
+      border-bottom: 2px solid white;
+    }
+
+    :active {
+      opacity: 70%;
     }
   }
 
@@ -41,12 +50,26 @@
     background-color: var(--red);
     padding: 10px 25px;
     border-radius: 20px;
+    transition: box-shadow 0.3s ease-in;
 
     a {
       text-decoration: none;
       font-family: "Enchanted land";
       font-size: 35px;
     }
+  }
+
+  .fnac-button:hover {
+    box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.5);
+  }
+
+  .fnac-button:active {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.36) 0%,
+        rgba(0, 0, 0, 0.36) 100%
+      ),
+      var(--red, #b00042);
   }
 }
 

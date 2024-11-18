@@ -42,11 +42,14 @@
   }
 
   .night-discusion {
-    // display: block;
     margin-bottom: 50px;
 
     .night-discusion-bg {
+      background: linear-gradient(180deg, rgba(37, 0, 11, 0) 70%, #25000b 100%),
+        linear-gradient(0deg, rgba(37, 0, 11, 0) 70%, #25000b 100%),
+        url(../img/night-discusion.png) lightgray 50% / cover no-repeat;
       width: 100vw;
+      height: 120vh;
     }
 
     :nth-child(1) {
@@ -66,6 +69,7 @@
     margin-bottom: 50px;
 
     .ysa-escape-bg {
+      box-shadow: 0px 0px 24.4px 19px #0c0c0c;
       width: 60vw;
     }
 
