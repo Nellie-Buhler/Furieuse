@@ -36,8 +36,8 @@
     :nth-child(3) {
       width: 28%;
       bottom: -50px;
-      right: -60vh;
-      opacity: 0;
+      right: -40vh;
+      opacity: 50%;
     }
   }
 
@@ -55,13 +55,13 @@
     :nth-child(1) {
       top: 200px;
       left: -30vw;
-      opacity: 0;
+      opacity: 50%;
     }
     :nth-child(3) {
       width: 18%;
       bottom: 200px;
       left: -30vw;
-      opacity: 0;
+      opacity: 50%;
     }
   }
 
@@ -77,24 +77,24 @@
       width: 24%;
       top: -50px;
       left: -30vw;
-      opacity: 0;
+      opacity: 50%;
     }
     :nth-child(3) {
       width: 35%;
       bottom: -50px;
       right: -38vw;
-      opacity: 0;
+      opacity: 50%;
     }
   }
 
   .alone-bubble {
     width: 50vw;
-    margin-bottom: 50px;
+    margin: 150px 0px;
 
     :nth-child(1) {
       width: 80%;
       bottom: 25px;
-      opacity: 0;
+      opacity: 50%;
     }
     :nth-child(2) {
       width: 50%;
@@ -114,12 +114,12 @@
       width: 25%;
       bottom: 600px;
       left: -8vw;
-      opacity: 0;
+      opacity: 50%;
     }
     :nth-child(3) {
       width: 60%;
       bottom: -180px;
-      opacity: 0;
+      opacity: 50%;
     }
   }
 
