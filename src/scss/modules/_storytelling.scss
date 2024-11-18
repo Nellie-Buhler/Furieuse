@@ -42,7 +42,7 @@
   }
 
   .night-discusion {
-    display: block;
+    // display: block;
     margin-bottom: 50px;
 
     .night-discusion-bg {
@@ -51,12 +51,14 @@
 
     :nth-child(1) {
       top: 200px;
-      left: 8vw;
+      left: -30vw;
+      opacity: 0;
     }
     :nth-child(3) {
       width: 18%;
       bottom: 200px;
-      left: 14vw;
+      left: -30vw;
+      opacity: 0;
     }
   }
 
@@ -70,12 +72,14 @@
     :nth-child(1) {
       width: 24%;
       top: -50px;
-      left: -8vw;
+      left: -30vw;
+      opacity: 0;
     }
     :nth-child(3) {
       width: 35%;
       bottom: -50px;
-      right: -10vw;
+      right: -38vw;
+      opacity: 0;
     }
   }
 
@@ -86,10 +90,12 @@
     :nth-child(1) {
       width: 80%;
       bottom: 25px;
+      opacity: 0;
     }
     :nth-child(2) {
       width: 50%;
       top: 25px;
+      opacity: 0;
     }
   }
 
@@ -104,10 +110,12 @@
       width: 25%;
       bottom: 600px;
       left: -8vw;
+      opacity: 0;
     }
     :nth-child(3) {
       width: 60%;
       bottom: -180px;
+      opacity: 0;
     }
   }
 
